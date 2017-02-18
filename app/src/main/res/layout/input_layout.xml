@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+
+    tools:context="flash.hippo.com.some.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily=""
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:text="What's up\nfor today?"
+    android:textSize="30dp"
+    android:textColor="@color/colorWhite"
+    android:id="@+id/heading"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:hint="title"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dairytext"
+        android:hint="write here.."
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="2000"
+        android:lines="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="top|left"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorWhite"
+
+        android:backgroundTint="@color/colorWhite"
+                />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save  "
+        android:background="@drawable/button_radius"
+        android:id="@+id/bSave"
+        android:layout_gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:onClick="savecontent"
+        android:drawableEnd="@drawable/ic_check_circle_black_24dp"
+        android:drawableRight="@drawable/ic_check_circle_black_24dp" />
+
+
+</LinearLayout>

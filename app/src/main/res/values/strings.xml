@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pink Dairy</string>
+    <string name="action_settings">Settings</string>
+    <string name="srch">Search</string>
+    <string name="all">Hello Mr.Kiran</string>
+    <string-array name="countries">
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+        <item>China</item>
+        <item>Bangladesh</item>
+        <item>Nepal</item>
+        <item>Afghanistan</item>
+        <item>North Korea</item>
+        <item>South Korea</item>
+        <item>Japan</item>
+    </string-array>
+</resources>
